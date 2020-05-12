@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <link rel="stylesheet" type="text/css" href ="contactcard.css">
+        
+        <script src = "./contactcard.js"></script>
+        <div id = "card" class = "card">
+            <a href="index.html">
+                <button class = "button" id = "button">Back to contacts</button>
+            </a>
+            <button class = "button" onclick=deleteContact() id = "delete">Delete</button>
+            <button class = "button" id = "edit">Edit</button>
+            <button class = "button" id = "export" onclick=exportVcard()>Export Vcard</button>
+            <br>
+            <h1 id = "name"></h1>
+            <hr>
+            <b><p style="text-align: left;">Phone number:</p></b>
+            <p class = "phone" id = "phoneNumber"></p>
+            <hr>
+            <b><p style="text-align: left;">Address:</p></b>
+            <p class = "address" id = "address"></p>
+            <hr>
+            <b><p style="text-align: left;">Relationships:</p></b>
+            <a class = "relations"  id = "mother">Mother: </a><br>
+            <a class = "relations" id = "father">Father: </a><br>
+            <a class = "relations" id = "brother">Brother: </a><br>
+            <a class = "relations"  id = "sister">Sister: </a><br>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <link rel="stylesheet" type="text/css" href="style_newcontact.css">
+        
+        <div class = "form">
+            <a href="./index.html">
+                <button class = "back">Back to contacts</button>
+            </a><br>
+            <h1>Import vCard</h1><hr><br>
+            <form onsubmit="event.preventDefault(); importVcard();" id = "form">
+                <label for = "file">File input: </label>
+                <input type="file" accept="vcf" id ="file"><br><br>
+                <button type = "submit">Import file</button>
+            </form>
+        </div>
+        <script src="./vcard.js"></script>
+    </body>
+</html>

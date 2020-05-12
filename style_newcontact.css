@@ -1,0 +1,58 @@
+h1{
+    display: inline-block;
+}
+
+body{
+    background-color: rgb(85, 85, 85);
+}
+
+div.form{
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 20px 30px;
+    margin: 0 auto;
+}
+div.form:hover{
+    box-shadow: 15px 30px 40px;
+}
+
+hr{
+    background-color: grey;
+    height: 1px;
+}
+
+.back{
+    float: right;
+    position: relative;
+    top:0;
+    font-size: large;
+    height: 30px;
+    transition: width .5s;
+}
+
+.back:hover{
+    box-shadow: 1px 2px 3px;
+    top:-3px;
+}
+
+div.relations{
+    text-align:center;
+}
+.button{
+    /* border: 0px; */
+    border-radius: 5%;
+    position: relative;
+    top:0;
+    font-size: large;
+    /* box-shadow: 1px 1px 1px; */
+    transition: width .5s;
+}
+
+.button:hover{
+    box-shadow: 1px 2px 3px;
+    top:-3px;
+}
