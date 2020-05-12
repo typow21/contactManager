@@ -16,6 +16,7 @@ h1{
 }
 
 button.new_contact{
+    background-color: white;
     float: right;
     box-shadow: 1px 2px 3px 1px #000000;
     position: relative;
