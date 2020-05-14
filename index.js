@@ -39,11 +39,11 @@ async function loadContacts(){
     loadPage();
 }
 
-// function googleProfile(){
+function googleProfile(){
 
-//     var profile = googleUser.getBasicProfile();
-//     console.log('Name: ' + profile.getName());
-//     console.log('Image URL: ' + profile.getImageUrl());
-//     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-// }
-// googleProfile();
+    var profile = auth2.currentUser.get().getBasicProfile();
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+googleProfile();
