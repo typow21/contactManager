@@ -6,7 +6,7 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
     console.log("version(1.0.2)");
-    window.location.href =  './index.html'
+    // window.location.href =  './index.html'
   }
 
 function signOut() {
